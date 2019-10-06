@@ -1,6 +1,6 @@
 <script>
-import pageHeader from '@/components/Header';
-import pageFooter from '@/components/Footer';
+import pageHeader from '@/components/Header'
+import pageFooter from '@/components/Footer'
 
 export default {
   components: {
