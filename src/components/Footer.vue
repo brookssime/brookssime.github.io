@@ -5,15 +5,15 @@ import emailIcon from '@/assets/img/email.png'
 import instagramIcon from '@/assets/img/instagram.png'
 import twitterIcon from '@/assets/img/twitter.png'
 export default {
- data () {
-   return {
+  data () {
+    return {
       linkedinIcon: linkedinIcon,
       githubIcon: githubIcon,
       emailIcon: emailIcon,
       instagramIcon: instagramIcon,
       twitterIcon: twitterIcon
-   }
- }
+    }
+  }
 }
 </script>
 <template>
@@ -36,7 +36,7 @@ export default {
     </a>
   </div>
   <div class="attribution">
-    Icons made by <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+    Icons made by <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
   </div>
 </div>
 </template>
@@ -51,7 +51,6 @@ export default {
     margin: 5px;
   }
 }
-
 
 .attribution {
   font-size: 10px;

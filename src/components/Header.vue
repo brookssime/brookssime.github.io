@@ -10,11 +10,11 @@ export default {
     }
   },
   methods: {
-    isActive(linkDestination) {
+    isActive (linkDestination) {
       return this.$route.path === linkDestination
     }
   }
-  
+
 }
 </script>
 <template>

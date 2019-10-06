@@ -12,9 +12,7 @@ export default {
 
 <template>
   <div id="app">
-    <page-header/>
     <router-view class="page-view"/>
-    <page-footer/>
   </div>
 </template>
 
@@ -32,7 +30,7 @@ export default {
        url('./assets/fonts/source-code-pro-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* arapey-regular - latin 
+/* arapey-regular - latin
 * Use for sub header
 */
 @font-face {
@@ -44,7 +42,7 @@ export default {
        url('./assets/fonts/arapey-v6-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* nunito-sans-regular - latin 
+/* nunito-sans-regular - latin
 * Use for body
 */
 @font-face {

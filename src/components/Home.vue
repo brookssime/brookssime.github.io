@@ -1,11 +1,11 @@
 <script>
 export default {
- 
+
 }
 </script>
 <template>
  <div class="landing-page">
-   <div class="landing-text">hi.</div>
+   <div class="landing-text">Coming Soon</div>
  </div>
 </template>
 <style lang="less" scoped>

@@ -8,8 +8,8 @@ export default {
 <div>
   <div class="page-heading">contact</div>
   <div class="contact-body">Email me at <a class="link bold-link" href="mailto:brookssime@gmail.com">brookssime@gmail.com</a>, or find me on
-    <a class="link bold-link" href="https//linkedin.com/in/brookssime">LinkedIn</a>, 
-    <a class="link bold-link" href="https//github.com/brookssime">Github</a>, 
+    <a class="link bold-link" href="https//linkedin.com/in/brookssime">LinkedIn</a>,
+    <a class="link bold-link" href="https//github.com/brookssime">Github</a>,
     <a class="link bold-link" href="https//twitter.com/notacreek">Twitter</a>, or
     <a class="link bold-link" href="https//instagram.com/brooksatrillion">Instagram</a>.
   </div>
