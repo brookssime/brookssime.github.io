@@ -1,12 +1,6 @@
 <script>
-import pageHeader from '@/components/Header'
-import pageFooter from '@/components/Footer'
-
 export default {
-  components: {
-    pageHeader,
-    pageFooter
-  }
+  components: {}
 }
 </script>
 
@@ -17,6 +11,20 @@ export default {
 </template>
 
 <style lang="less">
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#app {
+  height: 100%;
+}
+
+.page-view {
+  height: 100%;
+}
+
 /* source-code-pro-regular - latin
 * Use for headers
 */
@@ -71,14 +79,4 @@ export default {
   }
 }
 
-.page-view {
-  margin: 50px 100px;
-}
-
-.page-heading {
-  font-family: "Source Code Pro", sans-serif;
-  font-size: 32px;
-  font-weight: bold;
-  padding-bottom: 25px;
-}
 </style>
