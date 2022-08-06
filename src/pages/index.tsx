@@ -15,4 +15,14 @@ const IndexPage = () => {
   );
 };
 
+export const Head = () => {
+  const currentYear = new Date().getFullYear();
+  return (
+    <>
+      <title>Brooks Sime</title>
+      <meta name="description" content={`Brooks Sime | ${currentYear}`} />
+    </>
+  );
+};
+
 export default IndexPage;

@@ -2,14 +2,13 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Brooks Sime`,
-    siteUrl: `https://www.brookssime.com`,
+    title: "Brooks Sime",
+    siteUrl: `https://brookssime.com`,
   },
   graphqlTypegen: true,
   plugins: [
     "gatsby-plugin-styled-components",
     "gatsby-plugin-image",
-    "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",

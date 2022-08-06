@@ -2,10 +2,13 @@
   min-height: 50vh;
   display: flex;
   gap: 1rem;
+  margin: 0 2rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .card {
+    align-items: center;
     flex-direction: column;
+    margin: auto;
   }
 }
