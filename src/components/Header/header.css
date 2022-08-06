@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
