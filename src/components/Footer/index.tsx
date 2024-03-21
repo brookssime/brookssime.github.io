@@ -13,13 +13,6 @@ const Footer = () => {
         href="https://www.github.com/brookssime"
       />
       <ZalgoLink
-        icon={<FaTwitter />}
-        linkName="Twitter"
-        runs={1}
-        target="_blank"
-        href="https://twitter.com/brookssime"
-      />
-      <ZalgoLink
         icon={<FaLinkedin />}
         linkName="LinkedIn"
         runs={1}
