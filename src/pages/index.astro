@@ -1,0 +1,29 @@
+---
+
+import Body from "../components/Body";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+
+const currentYear = new Date().getFullYear();
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="/global.css"/> 
+		<link rel="icon" type="image/png" href="/icon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+    <title>Brooks Sime</title>
+    <meta name="description" content={`Brooks Sime | ${currentYear}`} />
+	</head>
+	<body>
+		<main>
+			<div class="pages">
+        <Header client:visible/>
+        <Body client:visible/>
+        <Footer client:visible/>
+      </div>
+		</main>
+	</body> 
+</html>

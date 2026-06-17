@@ -1,5 +1,3 @@
-import * as React from "react";
-
 const pageStyles = {
   color: "#232129",
   padding: "96px",

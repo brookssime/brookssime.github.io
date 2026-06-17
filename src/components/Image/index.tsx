@@ -1,4 +1,3 @@
-import * as React from "react";
 import "./image.css";
 
 interface ImageProps {

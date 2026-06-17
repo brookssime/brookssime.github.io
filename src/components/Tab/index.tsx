@@ -1,4 +1,3 @@
-import * as React from "react";
 import "./tab.css";
 
 interface TabProps {

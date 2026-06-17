@@ -1,7 +1,7 @@
-import * as React from "react";
+import type { ReactNode } from "react";
 
 interface TextBlockProps {
-  children?: React.ReactNode;
+  children?: ReactNode;
 }
 
 const textBlockStyle = {

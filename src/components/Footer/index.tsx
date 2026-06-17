@@ -1,7 +1,7 @@
-import * as React from "react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import ZalgoLink from "../ZalgoLink";
+import { FaFileAlt, FaGithub, FaLinkedin } from "react-icons/fa";
+import ZalgoLink from "../ZalgoLink/ZalgoLink";
 import "./footer.css";
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -18,6 +18,13 @@ const Footer = () => {
         runs={1}
         target="_blank"
         href="https://www.linkedin.com/in/brookssime"
+      />
+      <ZalgoLink
+        icon={<FaFileAlt />}
+        linkName="Resume"
+        runs={1}
+        download
+        href="/resume_latest.pdf"
       />
     </footer>
   );
