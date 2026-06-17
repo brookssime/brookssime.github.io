@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Link } from "gatsby";
 
 const pageStyles = {
   color: "#232129",
@@ -43,7 +42,7 @@ const NotFoundPage = () => {
           </>
         ) : null}
         <br />
-        <Link to="/">Go home</Link>.
+        <a href="/">Go home</a>.
       </p>
     </main>
   );

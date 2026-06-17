@@ -1,7 +1,0 @@
-*.min.js
-**/node_modules/**
-public
-**/.cache
-coverage
-**/images
-*.d.ts
